@@ -1,0 +1,172 @@
+/* AUTHOR : Maureen Waitherero Wachira
+	 FOR:Moringa School Pre-Course Work
+	 DESCRIPTION:About us css file	
+	 DATE:27-08-2015
+*/
+
+/*  Get rid of all default styling*/
+*{
+	margin:0px;
+	padding:0px;
+}
+header,nav,section,article,aside,footer{
+	display:block;
+}
+
+/*  styling the body */
+
+body {
+  font-family: 'bradley hand itc', sans-serif;
+  width:100%;
+  text-align:left;
+  padding-left:0px;
+  padding-right:0px;
+  background :#F1F0D1;
+  font-weight: 800;
+  font-size:18px;
+  overflow:auto;
+  
+}
+/*style the header by giving a background cover photo and some structural styling*/
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(http://citydesksport.com/wp-content/uploads/2013/12/sample-banner.jpg);
+  background-size: cover;
+  height:30vh;
+}
+
+/* styling the title  both decorative and structural */
+
+.title {
+  position: absolute;
+  top: 4.5%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  color:#D6AC30;
+  
+}
+/*styling the h1 heading */
+h1 {
+  text-transform: uppercase;
+  margin: 0px;
+  font-size: 4.0rem;
+  white-space: nowrap;
+  text-align:centre;
+   
+}
+
+/* styling the h2 heading */
+h2 {
+  font-size: 3rem;
+  text-align:center;
+  display:block;
+  color:#D6AC30;
+}
+
+/* styling the h3 heading */
+h3 {
+  font-size: 2rem;
+  text-align:left;
+  display:block;
+  color:#00001C;
+}
+
+/* styling the navigation links */
+		
+nav ul {
+	list-style:none;
+	margin:0px;
+	padding-left:50px;
+	padding-top:5px;}
+	
+nav ul  li{
+	float:right;
+	width:10%;
+	}
+	
+nav ul li a {
+	
+	display:block;
+	padding:0% 0%;
+	font-weight:bold;
+	font-size:25px;
+	text-decoration:none;
+	
+	color:#F1F0D1;
+}
+	
+
+nav ul li a:hover {
+
+	background:#D6AC30;
+}
+
+nav ul li a:active 
+ {
+	color:#F1F0D1;
+}
+
+/*  styling the footer */
+footer {
+	background:#D6AC30;
+	width:100%;
+	
+	overflow:hidden;
+	text-align:center;
+	
+	
+}
+/*  styling the footer paragraph */
+footer p{
+	color:#F1F0D1;
+	margin: 0px;
+	font-size: 1.5rem;
+	
+	
+}
+
+/*  styling the signup class */
+.signup{
+	text-align:centre;
+	padding-top:20px;
+	
+}
+/*  styling the linksection class */
+.linksection{
+	
+	text-align:rightwards;
+	
+	
+}
+.linksection img{
+	height:10vh;
+	width:10vh;
+}
+/*  styling the copyright  */
+.copyright{
+	font-family: calibri, sans-serif;
+}
+
+/* unique styling for the entries page;
+Float aside and main section.
+*/
+.right{
+	float:right;
+	width:900px;
+	border:2px solid red;
+	
+}
+.left{
+	float:left;
+	width:350px;
+	border:2px solid blue;
+	margin-right:5px;
+}
+
+
+	
