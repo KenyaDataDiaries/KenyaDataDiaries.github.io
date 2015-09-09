@@ -1,0 +1,134 @@
+/* AUTHOR : Maureen Waitherero Wachira
+	 FOR:Moringa School Pre-Course Work
+	 DESCRIPTION:Home page css file	
+	 DATE:27-08-2015
+*/	 
+
+/*  Get rid of all default styling*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+/* style the body */
+
+body {
+  font-family: 'bradley hand itc', sans-serif;
+  width:100%;
+  text-align:left;
+  padding-left:0px;
+  padding-right:0px;
+  background :"kamachu2.png";
+  font-weight: 900;
+  font-size:18px;
+  overflow:auto;
+}
+/*style the header by giving a background cover photo and some structural styling*/
+
+header img {
+	height:100vh;
+	width:250vh;
+}
+
+/* styling the title both decorative and structural */
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#D6AC30;
+  text-align: center;
+}
+/* styling the h1 heading */
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 7rem;
+  white-space: nowrap;
+  
+}
+/* styling the h2 heading */
+h2 {
+  font-size: 4rem;
+}
+
+/* styling in the navigation links */
+		
+nav ul {
+	list-style:none;
+	margin:0;
+	padding-left:0px;
+
+}
+
+nav ul  li{
+	
+	border:1px solid #878E63;
+	width:100%;
+	height:auto;
+	display:inline;
+}
+
+
+nav ul li a {
+	background :#D6AC30;
+	display:block;
+	padding:0%;
+	font-weight:bold;
+	font-size:30px;
+	color:#00001C;
+	text-decoration:none;
+	text-align: center;
+	height:50px;
+}
+
+nav ul li a:hover {
+
+background: #878E63;
+}
+	
+nav ul li a :active
+ {
+	color:#D6AC30;
+ }
+ 
+ /*  styling the footer */
+footer {
+	background:#D6AC30;
+	width:100%;
+	overflow:hidden;
+	
+/*  styling the signup class */	
+}
+footer p{
+	color:#F1F0D1;
+	margin: 0;
+	font-size: 1.5rem;	
+}
+
+.signup{
+	text-align:center;
+	padding-top:0px;
+	
+}
+
+/*  styling the linksection class */
+
+.linksection{
+	
+	text-align:center;
+	padding-top:0px;
+	
+}
+.linksection img{
+	height:10vh;
+	width:10vh;
+}
+
+/*  styling the copyright  */
+.copyright{
+	font-family: calibri, sans-serif;
+}
